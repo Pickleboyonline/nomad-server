@@ -28,5 +28,9 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-servlet:9.3.6.v20151106" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-api:9.3.6.v20151106" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.24" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver:3.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:bson:3.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:3.4.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.json:javax.json-api:1.0" level="project" />
   </component>
 </module>
