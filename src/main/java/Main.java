@@ -8,6 +8,8 @@ public class Main {
         char mark = '\u0022';
         Database db = new Database();
         staticFiles.externalLocation("C:\\apps");
+
+
         get("/data", (request, response) -> {
 
             return db.getMetadata(request.queryParams("id"));
