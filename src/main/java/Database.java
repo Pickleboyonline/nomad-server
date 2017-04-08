@@ -40,9 +40,9 @@ public class Database {
         Block<Document> saveData = new Block<Document>() {
             @Override
             public void apply(final Document document){
-                setMetadata(document.toJson());
+                setMetadata(document.get("expoUrl").toString());//
 
-                System.out.println(document.toJson());
+                System.out.println(document.get("expoUrl").toString());//document.toJson());
             }
         };
         collection.find(query).forEach(saveData);
